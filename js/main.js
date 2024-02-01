@@ -86,7 +86,7 @@
                 text: 'Em đã quay vào phần quà lì xì trị giá 10k vnd',
                 confirmButtonColor: "#83d0c9",
                 onClose: () => {
-                window.location = "http://127.0.0.1:5500/template/wheelaa.html"; 
+                window.location = "https://maitrungdung08042002.github.io/template/wheelaa.html"; 
                 },
             });
             console.log(txt);

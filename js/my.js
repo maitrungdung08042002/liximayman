@@ -40,7 +40,7 @@ const textConfig = {
         background: '#fff url("/img/iput-bg.jpg")',
         imageAlt: "Custom image",
         onClose: () => {
-          window.location = "http://127.0.0.1:5500/template/wheel.html"; 
+          window.location = "https://maitrungdung08042002.github.io/template/wheel.html"; 
           },
       }).then(function () {
         $(".content").show(200);
@@ -117,7 +117,7 @@ const textConfig = {
         width: 900,
         padding: "3em",
         html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-        background: '#fff url("/img/iput-bg.jpg")',
+        background: '#fff url("../img/iput-bg.jpg")',
         backdrop: `
                       rgba(0,0,123,0.4)
                       url("/img/giphy2.gif")

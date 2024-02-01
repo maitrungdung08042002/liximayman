@@ -35,13 +35,13 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "/img/lixi.jpg",
+      imageUrl: "../img/lixi.jpg",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("/img/iput-bg.jpg")',
       imageAlt: "Custom image",
       onClose: () => {
-        window.location = "http://127.0.0.1:5500/template/wheela.html"; 
+        window.location = "https://maitrungdung08042002.github.io/template/wheela.html"; 
         },
     }).then(function () {
       $(".content").show(200);
@@ -118,10 +118,10 @@ $(document).ready(function () {
       width: 900,
       padding: "3em",
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-      background: '#fff url("/img/iput-bg.jpg")',
+      background: '#fff url("../img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("/img/giphy2.gif")
+                    url("../img/giphy2.gif")
                     left top
                     no-repeat
                   `,
